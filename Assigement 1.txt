@@ -1,0 +1,100 @@
+Assignment Questions
+
+1. Who developed Python Programming Language?
+Ans:Python programming language was developed by Guido van Rossum.Python programming language was first released in 1991.
+
+2. Which type of Programming does Python support?
+Ans:Python supports multiple programming paradigms including object-oriented, procedural, functional, and aspect-oriented 
+programming styles. It is commonly used for general-purpose programming tasks, such as web development, scientific computing,
+data analysis, artificial intelligence, and more.
+
+3. Is Python case sensitive when dealing with identifiers?
+Ans:Yes, Python is case sensitive when dealing with identifiers (variable names, function names, etc.)
+
+4. What is the correct extension of the Python file?
+Ans:The correct file extension for Python source code is '.py'.
+
+5. Is Python code compiled or interpreted?
+Ans:Python is an interpreted language, not a compiled language. This means that the source code is executed line by line at
+ runtime, rather than being translated into machine code and executed directly by the computer's hardware.
+
+6. Name a few blocks of code used to define in Python language?
+Ans:In Python, blocks of code are defined using indentation. There are a few common blocks of code used in Python, including:
+1.Functions: defined using the def keyword
+2.Classes: defined using the class keyword
+3.Conditional statements: such as if, elif, and else
+4.Loops: such as for and while
+5.try-except blocks: for handling exceptions
+These blocks are used to structure and organize code in a readable and maintainable manner.
+
+7. State a character used to give single-line comments in Python?
+Ans.a single-line comment can be added by starting the line with the hash symbol (#)
+# This is a single-line comment in Python
+
+8. Mention functions which can help us to find the version of python that we are currently working on?
+Ans:  1.sys.version: This attribute returns a string that describes the version of the Python interpreter.
+      2.sys.version_info: This attribute returns a named tuple that describes the version of the Python interpreter.
+      3.platform.python_version(): This function returns a string that describes the version of the Python interpreter.
+
+9.Python supports the creation of anonymous functions at runtime, using a construct called?
+Ans:"lambda function"
+
+10. What does pip stand for python?
+Ans:"pip" stands for "Pip Installs Packages".
+
+11. Mention a few built-in functions in python?
+Ans: 
+1.print(): Used to display output on the console
+2.len(): Returns the length of a string, list, tuple, etc.
+3.str(): Converts a value to a string
+4.int(): Converts a value to an integer
+5.float(): Converts a value to a floating-point number
+6.range():Generates a sequence of numbers
+
+12. What is the maximum possible length of an identifier in Python?
+Ans:In Python, there is no explicit limit on the length of an identifier (variable name, function name, etc.)
+
+13. What are the benefits of using Python?
+Ans.
+1.Easy to learn and use: Python has a simple and intuitive syntax that is easy to learn, 
+even for those with no prior programming experience.
+2.Versatile: Python can be used for a wide range of applications, including web development, 
+scientific computing, data analysis, artificial intelligence, and more
+3.Large and active community: Python has a large and active community of users and developers,
+ who contribute to the language and its many libraries and tools. This means that help and support are always readily available.
+
+4.Large standard library: Python comes with a large standard library that includes modules for many common programming tasks, 
+such as connecting to web servers, reading and writing files, and working with data.
+
+5.Cross-platform compatibility: Python code can run on many different operating systems, including Windows, macOS, and Linux, 
+without modification.
+
+6.Dynamically typed: Python is dynamically typed, meaning that you do not need to specify the type of a variable
+ when declaring it. This makes it easier to write code quickly, as you don't need to worry about type-checking.
+
+14. How is memory managed in Python?
+Ans:memory management is handled automatically by the Python interpreter, using a memory manager and a garbage collector.
+
+15. How to install Python on Windows and set path variables?
+Ans: the steps to install Python on Windows and set the path variables:
+
+1.Download the Python installer from the official Python website (https://www.python.org/downloads/).
+
+2.Run the installer and follow the prompts to install Python on your system. It is recommended to add 
+Python to the PATH during the installation process.
+
+3.After installation, open the Command Prompt and type python to confirm that Python has been installed 
+and the path has been set correctly.
+
+To set the path variables, follow these steps:
+
+.Open the Start menu and search for 'Environment Variables'
+.Click on 'Edit the system environment variables'
+.In the System Properties window, click on the 'Environment Variables' button
+.Under 'System Variables', scroll down and find the 'Path' variable, then click on 'Edit'
+.Add the path to the Python installation (e.g., C:\Python37\ or C:\Python37\Scripts\)
+.Click 'OK' to close all windows and save the changes
+.Verify that the path has been set correctly by opening a new Command Prompt and typing python again. You should now be able to run Python from any location on your system.
+
+16. Is indentation required in python?
+Ans.Yes, indentation is required in Python
